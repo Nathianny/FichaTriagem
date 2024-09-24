@@ -1,0 +1,233 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ficha {
+    background: rgb(236, 245, 249);
+    padding: 20px;
+    border: 3px solid #ccc;
+    width: auto;
+    margin: auto;
+}
+
+.header h1,
+.header h2 {
+    text-align: center;
+    margin: 0;
+    font-weight: normal;
+}
+
+.header p {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+.form-section h3 {
+    text-align: center;
+    margin-bottom: 55px;
+    font-size: 40px;
+    border: solid 1px black;
+    border-radius: 10px;
+}
+
+.form-section label,
+.params label,
+.footer label {
+    display: block;
+    margin-bottom: 15px;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.form-section {
+    border: 3px solid #000;
+    border-radius: 10px;
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+.dados {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#nome,
+#nomeEnf {
+    width: 500px;
+    padding: 10px;
+    border: 2px solid black;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+#prontuario,
+#cartao-sus {
+    width: 350px;
+    padding: 12px;
+    margin: 10px 0 0 0;
+    border: 2px solid black;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+#dn,
+#horario-chegada,
+#data {
+    width: 250px;
+    padding: 10px;
+    border: 2px solid black;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+.params {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    font-size: 30px;
+    text-align: center;
+}
+
+.param-avaliacao,
+.param-acolhimento {
+    width: 45%;
+    padding: 10px;
+    border: 3px solid #000;
+    margin-right: 10px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.param-acolhimento ul {
+    list-style: none;
+    padding: 0;
+}
+
+.param-acolhimento ul li {
+    margin-bottom: 10px
+}
+
+.queixa-principal label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    border: solid 3px black;
+}
+
+.queixa-principal textarea {
+    width: 98%;
+    padding: 10px;
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+
+.btn {
+    margin-top: 20px;
+}
+
+.btn-azul {
+    background-color: #0B5ED7;
+    color: white;
+    border: solid 2px black;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 10px;
+}
+
+.btn-azul:hover {
+    background-color: #094EA4;
+}
+
+.btn-laranja {
+    background-color: orangered;
+    color: white;
+    border: solid 2px black;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.btn-laranja:hover {
+    background-color: rgb(196, 54, 2);
+}
+
+.btn-verde {
+    background-color: #157347;
+    color: white;
+    border: solid 2px black;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.btn-verde:hover {
+    background-color: #0D4A39;
+}
+
+.btn-vermelho {
+    background-color: #BB2D3B;
+    color: white;
+    border: solid 2px black;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.btn-vermelho:hover{
+    background-color: #6f2727;
+}
+.btn-amarelo {
+    background-color: #FFCA2C;
+    color: white;
+    border: solid 2px black;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.btn-amarelo:hover{
+    background-color: #D99B22;
+}
+
+.validade {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.validade label {
+    display: inline-block;
+}
+
+.validade p,
+.queixa-principal label {
+    font-size: 30px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #727275;
+    color: white;
+    border: solid 2px black;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #555555;
+}
